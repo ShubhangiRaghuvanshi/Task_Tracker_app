@@ -1,0 +1,114 @@
+/* login.css */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* Body Style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f4f8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Container */
+.login-container {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+}
+
+.login-container:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Title */
+.login-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Error Message */
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+/* Form Fields */
+.login-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color: #34495e;
+  font-size: 0.95rem;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.25);
+}
+
+/* Submit Button */
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+/* Register Redirect Text */
+.register-redirect {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #34495e;
+}
+
+.register-redirect a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register-redirect a:hover {
+  text-decoration: underline;
+}

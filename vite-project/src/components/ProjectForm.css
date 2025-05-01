@@ -1,0 +1,62 @@
+/* ProjectForm Styles */
+.project-form {
+    background-color: aqua; 
+    border-radius: 1rem; /* Rounded corners for modern appeal */
+    padding: 2rem; /* Adequate padding */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 500px; /* Restrict form width for better focus */
+    margin: auto; /* Center the form */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Spacing between elements */
+  }
+  
+  .project-form .input-field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-form label {
+    font-size: 1rem; /* Readable label font */
+    font-weight: 600; /* Semi-bold label */
+    color: #374151; /* Dark grayish-blue color */
+    margin-bottom: 0.5rem; /* Spacing below label */
+  }
+  
+  .project-form input {
+    padding: 1rem; /* Adequate padding for inputs */
+    border-radius: 0.75rem; /* Rounded input corners */
+    border: 1px solid #d1d5db; /* Light gray border */
+    font-size: 1rem; /* Readable font size */
+    color: #374151; /* Dark text color */
+    outline: none; /* Remove default outline */
+    transition: border 0.3s ease; /* Smooth transition for border */
+  }
+  
+  .project-form input:focus {
+    border-color: #3b82f6; /* Focus border turns blue */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2); /* Subtle glow on focus */
+  }
+  
+  .project-form button {
+    background-color: #3b82f6; /* Blue button */
+    color: #ffffff; /* White text */
+    padding: 1rem 2rem; /* Adequate button padding */
+    border-radius: 0.75rem; /* Rounded button corners */
+    border: none; /* Remove default button border */
+    font-weight: 600; /* Semi-bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover */
+    width: 100%; /* Full width button */
+  }
+  
+  .project-form button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+    transform: translateY(-3px); /* Lift effect on hover */
+  }
+  
+  .project-form button:disabled {
+    background-color: #d1d5db; /* Gray background when disabled */
+    cursor: not-allowed; /* Disabled cursor */
+  }
+  
