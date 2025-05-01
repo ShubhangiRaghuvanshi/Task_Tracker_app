@@ -4,7 +4,7 @@ import ProjectForm from "../components/ProjectForm";
 import ProjectCard from "../components/ProjectCard";
 import TaskForm from "../components/TaskForm";
 import TaskCard from "../components/TaskCard";
-import './dashboard.css';
+import './Dashboard.css';
 
 const Dashboard = () => {
   const navigate = useNavigate(); // Initialize navigate for redirection
