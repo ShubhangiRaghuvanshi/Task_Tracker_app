@@ -1,6 +1,6 @@
 import React from "react";
 import { FaEdit, FaTrash } from "react-icons/fa"; // For edit and delete icons
-import './taskCard.css';
+import './TaskCard.css';
 
 const TaskCard = ({ task, onUpdate, onDelete }) => {
   console.log("TaskCard component rendered with task:", task);
